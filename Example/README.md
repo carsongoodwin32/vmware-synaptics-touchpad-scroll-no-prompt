@@ -14,6 +14,7 @@ https://www.vmware.com/pdf/vix162_vmrun_command.pdf
 
 Look under "Setting Up vmrun on Windows"
 
+
 Also check out:
 
 https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
