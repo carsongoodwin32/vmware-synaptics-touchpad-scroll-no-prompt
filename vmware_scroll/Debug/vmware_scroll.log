@@ -1,0 +1,3 @@
+﻿  vmware_scroll_start.cpp
+vmware_scroll_start.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  vmware_scroll.vcxproj -> C:\Users\carso\Desktop\vmware-synaptics-touchpad-scroll-master\Debug\vmware_scroll_start.exe

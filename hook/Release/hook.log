@@ -1,0 +1,6 @@
+﻿     Creating library C:\Users\carso\Desktop\vmware-synaptics-touchpad-scroll-master\Release\hook.lib and object C:\Users\carso\Desktop\vmware-synaptics-touchpad-scroll-master\Release\hook.exp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  hook.vcxproj -> C:\Users\carso\Desktop\vmware-synaptics-touchpad-scroll-master\Release\hook.dll

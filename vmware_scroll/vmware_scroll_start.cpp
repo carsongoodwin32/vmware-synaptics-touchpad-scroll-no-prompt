@@ -41,26 +41,26 @@ int CALLBACK WinMain(
 		if(lstrcmp(szArgList[1], L"0") == 0) {
 			HWND phwnd = FindWindowEx(NULL, NULL, L"VMPlayerFrame", NULL);	
 			EnumChildWindows(phwnd, (WNDENUMPROC) playerScroll, (LPARAM) &hwnd);
-			MessageBox(NULL, L"Enable Synaptics touchpad scroll for Vmware Player", L"", MB_OK | MB_ICONASTERISK);
+			//MessageBox(NULL, L"Enable Synaptics touchpad scroll for Vmware Player", L"", MB_OK | MB_ICONASTERISK);
 		}
 		else {
 			HWND phwnd = FindWindowEx(NULL, NULL, L"VMUIFrame", NULL);	
 			EnumChildWindows(phwnd, (WNDENUMPROC) workstationScroll, (LPARAM) &hwnd);
-			MessageBox(NULL, L"Enable Synaptics touchpad scroll for Vmware Workstation", L"", MB_OK | MB_ICONASTERISK);
+			//MessageBox(NULL, L"Enable Synaptics touchpad scroll for Vmware Workstation", L"", MB_OK | MB_ICONASTERISK);
 		}
 	}
 	else {
 			HWND phwnd = FindWindowEx(NULL, NULL, L"VMUIFrame", NULL);	
 			EnumChildWindows(phwnd, (WNDENUMPROC) workstationScroll, (LPARAM) &hwnd);
-			MessageBox(NULL, L"Enable Synaptics touchpad scroll for Vmware Workstation", L"", MB_OK | MB_ICONASTERISK);
+			//MessageBox(NULL, L"Enable Synaptics touchpad scroll for Vmware Workstation", L"", MB_OK | MB_ICONASTERISK);
 	}
  
     LocalFree(szArgList);
 
 	auto res = hwnd ? !InjectDll(hwnd) : 2;
-	wstringstream wss;
-	wss << "vmware_scroll_start result: " << res;
-	MessageBox(NULL, wss.str().data(), L"", MB_OK | MB_ICONASTERISK);
+	// wstringstream wss;
+	//wss << "vmware_scroll_start result: " << res;
+	//MessageBox(NULL, wss.str().data(), L"", MB_OK | MB_ICONASTERISK);
 
 	return res;
 }

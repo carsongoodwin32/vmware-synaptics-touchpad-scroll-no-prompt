@@ -1,0 +1,4 @@
+﻿  hook.cpp
+hook.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library C:\Users\carso\Desktop\vmware-synaptics-touchpad-scroll-master\Debug\hook.lib and object C:\Users\carso\Desktop\vmware-synaptics-touchpad-scroll-master\Debug\hook.exp
+  hook.vcxproj -> C:\Users\carso\Desktop\vmware-synaptics-touchpad-scroll-master\Debug\hook.dll
