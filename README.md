@@ -1,7 +1,7 @@
 Use Synaptics Touchpad Scroll in VMware Guest
 =============================================
 
-PLEASE SEE devpack/vmware-synaptics-touchpad-scroll for original code.
+PLEASE SEE devpack/vmware-synaptics-touchpad-scroll FOR ORIGINAL CODE.
 
 Updated Andrew Zabavnikov fix to work also with VMware Player.
 
